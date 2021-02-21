@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | 卢茂林</title>
+<title>自我介绍 | 卢茂林</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,31 @@
 <link rel="stylesheet" href="https://github.com/520lml/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="学会学习，学会分享">
+    <meta name="description" content="
+欢迎来到我的小站呀，很高兴遇见你！🤝
+
+🏠 关于本站
+小老爷的学习记录本，一步一个脚印，加油！
+👨‍💻 博主是谁
+未来的IT之星，年入百万博主（跪求大佬带带我）
+⛹ 兴趣爱好
+吃和减肥
+📬 联系我呀
+
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -92,47 +110,45 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">自我介绍</h2>
+            <div class="post-date">2021-02-21</div>
+            
+            <div class="post-content" v-pre>
+              <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>小老爷的学习记录本，一步一个脚印，加油！</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>未来的IT之星，年入百万博主（跪求大佬带带我）</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>吃和减肥</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<figure data-type="image" tabindex="1"><img src="https://github.com/520lml/post-images/1613893447593.jpg" alt="" loading="lazy"></figure>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2021</h2>
-              
-                
-                  <article class="post">
-                    <a href="https://github.com/520lml/post/zi-wo-jie-shao/">
-                      <h2 class="post-title">
-                        自我介绍
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2018</h2>
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://github.com/520lml/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://github.com/520lml/post/hello-gridea/">
-                      <h2 class="post-title">
-                        Hello Gridea
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -153,6 +169,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c70f0472e7f293bcae32',
+        clientSecret: '14d50623702c76a68159f585da46fdbca6cdd3cb',
+        repo: '520lml.github.io',
+        owner: '520lml',
+        admin: ['520lml'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

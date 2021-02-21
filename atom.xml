@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/520lml</id>
-    <title>卢茂林个人网站</title>
-    <updated>2021-02-21T07:23:33.884Z</updated>
+    <title>卢茂林</title>
+    <updated>2021-02-21T07:45:59.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/520lml"/>
     <link rel="self" href="https://github.com/520lml/atom.xml"/>
     <subtitle>学会学习，学会分享</subtitle>
     <logo>https://github.com/520lml/images/avatar.png</logo>
     <icon>https://github.com/520lml/favicon.ico</icon>
-    <rights>All rights reserved 2021, 卢茂林个人网站</rights>
+    <rights>All rights reserved 2021, 卢茂林</rights>
     <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://github.com/520lml/post/ce-shi/</id>
-        <link href="https://github.com/520lml/post/ce-shi/">
+        <title type="html"><![CDATA[自我介绍]]></title>
+        <id>https://github.com/520lml/post/zi-wo-jie-shao/</id>
+        <link href="https://github.com/520lml/post/zi-wo-jie-shao/">
         </link>
-        <updated>2021-02-21T07:18:58.000Z</updated>
-        <content type="html"><![CDATA[<p>测试123！</p>
+        <updated>2021-02-21T07:42:02.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>小老爷的学习记录本，一步一个脚印，加油！</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>未来的IT之星，年入百万博主（跪求大佬带带我）</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>吃和减肥</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<figure data-type="image" tabindex="1"><img src="https://github.com/520lml/post-images/1613893447593.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
