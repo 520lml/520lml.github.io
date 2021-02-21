@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520lml.github.io</id>
     <title>卢茂林</title>
-    <updated>2021-02-21T13:40:33.373Z</updated>
+    <updated>2021-02-21T13:47:28.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520lml.github.io"/>
     <link rel="self" href="https://520lml.github.io/atom.xml"/>
@@ -16,10 +16,7 @@
         <link href="https://520lml.github.io/post/done-is-better-than-perfect/">
         </link>
         <updated>2021-02-21T13:36:54.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://520lml.github.io/post-images/1613914713078.jpg" alt="" loading="lazy"></figure>
-]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://520lml.github.io/post-images/1613914713078.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
+        <content type="html"><![CDATA[<!-- more -->
 <!-- more -->
 ]]></content>
     </entry>
